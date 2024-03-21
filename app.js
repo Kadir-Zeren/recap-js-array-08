@@ -179,11 +179,38 @@
 // color1 = color1.concat("Black", color2, 2);
 // console.log(color1);
 
-const colors = ["Red", "Green", "Blue", "Brown", "Green"];
+// const colors = ["Red", "Green", "Blue", "Brown", "Green"];
 // console.log(colors.indexOf("Green"));
 // console.log(colors.indexOf("Green", 3));
 // console.log(colors.indexOf("green"));
-console.log(colors.lastIndexOf("Green"));
-console.log(colors.lastIndexOf("Green", -2));
-console.log(colors.lastIndexOf("Green", 3));
-console.log(colors.lastIndexOf("green"));
+// console.log(colors.lastIndexOf("Green"));
+// console.log(colors.lastIndexOf("Green", -2));
+// console.log(colors.lastIndexOf("Green", 3));
+// console.log(colors.lastIndexOf("green"));
+
+// const colors = ["Red", "Green", "Blue", "Green", "Brown", "yellow"];
+// colors.reverse();
+// console.log(colors);
+
+// const arr = ["C", "l", "a", "r", "u", "s", "w", "a", "y"];
+// console.log(arr.join());
+// console.log(arr.join(""));
+// console.log(arr.join("-"));
+// console.log(arr);
+
+// const arr = [55, 5, 22, 2, 11, 1, 111];
+// arr.sort();
+// console.log(arr);
+
+// arr.sort((a, b) => a - b);
+// console.log(arr);
+
+// arr.sort((a, b) => b - a);
+// console.log(arr);
+
+const arr = ["red", "blue", "Purple", "white", "orange"];
+
+console.log(arr.includes("blue"));
+console.log(arr.includes("Blue"));
+console.log(arr.includes("blue", 2));
+
