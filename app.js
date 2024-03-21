@@ -119,11 +119,50 @@
 // console.log(colors.length);
 // console.log(d + " d");
 
-const car = ["Audi", "BMW"];
+// const car = ["Audi", "BMW"];
 
-const car2 = ["Ford", "Tesla", "Mercedes"];
+// const car2 = ["Ford", "Tesla", "Mercedes"];
 
-car.push(car2);
+// car.push(car2);
 // car.push(...car2);
 
-console.log(car[2][2]);
+// console.log(car[2][2]);
+
+// const car = ["Audi", "BMW"];
+// console.log(car.pop());
+
+// const silinen = car.pop();
+
+// console.log(silinen);
+
+// console.log(car.pop());
+
+// const colors = ["Green", "Blue"];
+// console.log(colors.unshift("Red"));
+// console.log(colors);
+
+// const car = ["Audi", "BMW"];
+// const car2 = ["Ford", "Tesla", "Mercedes"];
+
+// car.unshift(...car2);
+
+// console.log(car);
+
+// const colors = ["Red", "Green", "Blue", "Yellow", "Brown"];
+
+// console.log(colors.shift());
+
+// console.log(colors);
+
+const colors = ["Red", "Green", "Blue", "Yellow", "Brown"];
+
+// console.log(colors.splice(2, 1));
+// console.log(colors.splice(2));
+// console.log(colors);
+
+// console.log(colors.splice(2, 0, "White"));
+// console.log(colors);
+
+console.log(colors.splice(3, 1, "Pink"));
+console.log(colors.splice(3, 2, "Pink", "Black"));
+console.log(colors);
