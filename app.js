@@ -208,9 +208,22 @@
 // arr.sort((a, b) => b - a);
 // console.log(arr);
 
-const arr = ["red", "blue", "Purple", "white", "orange"];
+// const arr = ["red", "blue", "Purple", "white", "orange"];
 
-console.log(arr.includes("blue"));
-console.log(arr.includes("Blue"));
-console.log(arr.includes("blue", 2));
+// console.log(arr.includes("blue"));
+// console.log(arr.includes("Blue"));
+// console.log(arr.includes("blue", 2));
 
+// const arr = [1, true, [3, "Red", 5], [6, 7, 8]];
+// console.log(arr.length);
+
+// console.log(arr[0]);
+// console.log(arr[2]);
+// console.log(arr[2]);
+// console.log(arr[2][0]);
+// console.log(arr[2][1]);
+// console.log(arr[2][2]);
+// console.log(arr[3][2]);
+
+const arr = ["Red", "Green", , , , , "Blue"];
+console.log(arr);
