@@ -154,7 +154,7 @@
 
 // console.log(colors);
 
-const colors = ["Red", "Green", "Blue", "Yellow", "Brown"];
+// const colors = ["Red", "Green", "Blue", "Yellow", "Brown"];
 
 // console.log(colors.splice(2, 1));
 // console.log(colors.splice(2));
@@ -163,6 +163,27 @@ const colors = ["Red", "Green", "Blue", "Yellow", "Brown"];
 // console.log(colors.splice(2, 0, "White"));
 // console.log(colors);
 
-console.log(colors.splice(3, 1, "Pink"));
-console.log(colors.splice(3, 2, "Pink", "Black"));
-console.log(colors);
+// console.log(colors.splice(3, 1, "Pink"));
+// console.log(colors.splice(3, 2, "Pink", "Black"));
+// console.log(colors);
+
+// let color1 = ["red", "green"];
+// const color2 = ["blue", "orange"];
+// const color3 = [10, true];
+
+// const joinedArray = color1.concat(color2, color3);
+// console.log(color1);
+// const destr = color1.push(...color2, ...color3);
+// console.log(color1);
+
+// color1 = color1.concat("Black", color2, 2);
+// console.log(color1);
+
+const colors = ["Red", "Green", "Blue", "Brown", "Green"];
+// console.log(colors.indexOf("Green"));
+// console.log(colors.indexOf("Green", 3));
+// console.log(colors.indexOf("green"));
+console.log(colors.lastIndexOf("Green"));
+console.log(colors.lastIndexOf("Green", -2));
+console.log(colors.lastIndexOf("Green", 3));
+console.log(colors.lastIndexOf("green"));
